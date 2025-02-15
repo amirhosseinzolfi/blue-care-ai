@@ -21,6 +21,7 @@ venv/
 env/
 .venv/
 .env/
+venv2/
 
 # OS-specific files
 .DS_Store

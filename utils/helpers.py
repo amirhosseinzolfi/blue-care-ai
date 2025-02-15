@@ -39,8 +39,6 @@ def refine_ai_response(response_md: str) -> str:
             }
             for name, (pattern, repl) in placeholders.items():
                 temp = re.sub(pattern, repl, temp)
-            for char in special_chars:
-                temp = temp.replace(char, f"\\{char}")
             restorations = {
                 '‡B‡': '**',
                 '‡I‡': '*',
