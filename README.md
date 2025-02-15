@@ -38,3 +38,4 @@ A Telegram bot powered by LangChain and an LLM (GPT-4o-mini) designed to assist 
 Specify your license information here.
 
 // ...existing notes or additional information...
+# blue-care-ai
