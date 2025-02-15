@@ -1,0 +1,40 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+*.env
+*.egg-info/
+.eggs/
+dist/
+build/
+.vscode/
+.idea/
+# Python
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# VS Code settings
+.vscode/
+
+# MongoDB data files (if any)
+data/
+
+# Others
+*.bak
