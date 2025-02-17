@@ -1,41 +1,44 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-.env
-*.env
-*.egg-info/
-.eggs/
-dist/
-build/
-.vscode/
-.idea/
-# Python
-*.py[cod]
-*.egg-info/
-*.egg
-*.pyo
+*$py.class
 
-# Virtual environments
-venv/
+# Virtual environment directories
 env/
+venv/
 .venv/
+<<<<<<< HEAD
 .env/
 venv2/
+=======
+>>>>>>> 8f0aa78 (lkj)
 
-# OS-specific files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Logs and databases
-*.log
-*.sqlite3
+# Logs and local user data (do not push sensitive files)
+user_data/
 
-# VS Code settings
+# IDE / Editor settings
 .vscode/
+.idea/
 
-# MongoDB data files (if any)
-data/
-
-# Others
+# Unrelated extra files
+*.log
+*.tmp
 *.bak
+.env
+.env.local
+node_modules/
+tmp/
+.cache/
+
+# Additional unrelated code files and build artifacts
+*.swp
+*.swo
+*.swn
+*.iml
+build/
+dist/
+coverage/
