@@ -10,3 +10,4 @@ pydantic              # Data validation in LangChain components
 openai                # OpenAI API client
 requests              # HTTP requests library
 pymongo               # MongoDB support for potential future data storage
+python-dotenv         # For easy environment variable configuration
